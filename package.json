@@ -1,0 +1,25 @@
+{
+  "name": "node-oauth-express",
+  "version": "1.0.0",
+  "description": "OAuth build by Node Js, express and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swetha41/Node-OAUTH-Express.git"
+  },
+  "author": "Swetha.G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swetha41/Node-OAUTH-Express/issues"
+  },
+  "homepage": "https://github.com/Swetha41/Node-OAUTH-Express#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  }
+}
