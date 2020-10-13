@@ -1,5 +1,5 @@
-const express = require("express");
-const ejs = require("ejs");
+const express = require('express');
+const ejs = require('ejs');
 
 const app = express();
 
@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 
 //routes
 app.get("/", (req, res) => {
-    res.send('Hello World');
+    res.render('home');
 })
 
 app.listen(3000, () => {
